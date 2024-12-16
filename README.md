@@ -35,7 +35,7 @@ Install Locally in the Project:
 `npm install ts-node --save-dev`
 
 Update your scripts in package.json:
-"start": "nodemon --ext 'ts,js,mjs,json' --exec 'npx ts-node server.ts'"
+"start": "nodemon --ext 'ts,js,mjs,json' --exec npx ts-node server.ts"
 
 
 If installed, find the global npm path:
